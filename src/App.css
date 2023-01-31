@@ -144,7 +144,10 @@ html  { scroll-behavior: smooth; }
 /*==================== BREAKPOINTS ====================*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* For medium devices */
@@ -158,5 +161,8 @@ html  { scroll-behavior: smooth; }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 } 
