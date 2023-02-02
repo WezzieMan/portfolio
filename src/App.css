@@ -132,7 +132,7 @@ html  { scroll-behavior: smooth; }
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
-.button--flex {
+.button-flex {
   display: inline-flex;
   align-items: center;
 }
