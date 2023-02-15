@@ -1,6 +1,6 @@
 import "./about.css";
 import AboutImg from "../../assets/about.png";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/CV _DanielFlorianMarcoci.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
         <div className="about_data">
           <Info />
 
-          <p className="about_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus cupiditate ea, voluptatem eius quasi, consectetur quo quidem odio exercitationem minima at rerum illo similique corporis suscipit amet consequuntur quisquam magnam?</p>
+          <p className="about_description">I am 20 years old romanian fellow living in Italy since Middle School. Studying web development, learning new skills and perfecting those already acquired whenever I can.</p>
 
           <a download="" href={CV} className="button button-flex">Download CV
             <svg

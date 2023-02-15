@@ -30,10 +30,10 @@ const Qualification = () => {
           <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Design</h3>
+                <h3 className="qualification_title">Highschool Diploma</h3>
                 <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2016 - 2021
                 </div>
               </div>
 
@@ -52,10 +52,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification_title">Art Director</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
+                <h3 className="qualification_title">Java Accademy</h3>
+                <span className="qualification_subtitle">DEDAGROUP S.P.A</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
                 </div>
               </div>
 
@@ -63,10 +63,10 @@ const Qualification = () => {
 
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
+                <h3 className="qualification_title">Web Development Bootcamp</h3>
+                <span className="qualification_subtitle">Udemy</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
                 </div>
               </div>
 
@@ -85,10 +85,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification_title">UX Expert</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
+                <h3 className="qualification_title">Web Courses</h3>
+                <span className="qualification_subtitle">LinkedIn Learning</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
                 </div>
               </div>
 
@@ -98,10 +98,10 @@ const Qualification = () => {
           <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Web Design</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
+                <h3 className="qualification_title">Junior Java Developer</h3>
+                <span className="qualification_subtitle">DEDAGROUP SPA</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
                 </div>
               </div>
 
@@ -120,111 +120,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification_title">Art Director</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
+                <h3 className="qualification_title">Software Developer</h3>
+                <span className="qualification_subtitle">DEDAGROUP SPA</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
-                </div>
-              </div>
-
-            </div>
-
-            <div className="qualification_data">
-              <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification_title">UX Expert</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
-            <div className="qualification_data">
-              <div>
-                <h3 className="qualification_title">Web Design</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification_title">Art Director</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
-                </div>
-              </div>
-
-            </div>
-
-            <div className="qualification_data">
-              <div>
-                <h3 className="qualification_title">Web Developer</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-            </div>
-
-            <div className="qualification_data">
-              <div></div>
-
-              <div>
-                <span className="qualification_rounder"></span>
-                <span className="qualification_line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification_title">UX Expert</h3>
-                <span className="qualification_subtitle">Istituto Tecnico Tecnologico M. Buonarroti</span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
               </div>
 
