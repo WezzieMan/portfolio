@@ -8,24 +8,34 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/Scrollup";
 import Portfolio from "./components/portfolio/Portfolio";
+import { createContext, useState } from "react";
+
+// export const ThemeContext = createContext(null)
 
 function App() {
-  return (
-    <>
-      <Header />
+  // const [theme, setTheme] = useState("dark");
 
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Qualification />
-        <Portfolio />
-        <Contact />
-      </main>
-      
-      <Footer />
-      <Scrollup />
-    </>
+  // const toggleTheme = () => {
+  //   setTheme((cur) => (cur === "light" ? "dark" : "light"));
+  // }
+  return (
+    // <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div >
+        <Header />
+
+        <main className="main">
+          <Home />
+          <About />
+          <Skills />
+          <Qualification />
+          <Portfolio />
+          <Contact />
+        </main>
+        
+        <Footer />
+        <Scrollup />
+      </div>
+    // </ThemeContext.Provider>
   );
 }
 

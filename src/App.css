@@ -6,12 +6,12 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
-  --title-color: #A2D9FF; /* #333333 */
-  --title-color-dark: #61C9A8; /* #000 */
-  --text-color: #F5B700; /* #757575 */
-  --body-color: #193549; /* #FAFAFA */
-  --container-color: #193949; /* #fff */
+    /*========== Colors ==========*/
+    --title-color: #A2D9FF; 
+    --title-color-dark: #61C9A8; 
+    --text-color: #F5B700; 
+    --body-color: #193549; 
+    --container-color: #193949;
 
   /*========== Font and Typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -48,6 +48,24 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
+/* #dark { */
+    /*========== Colors ==========*/
+    /* --title-color: #A2D9FF; 
+    --title-color-dark: #61C9A8; 
+    --text-color: #F5B700; 
+    --body-color: #193549; 
+    --container-color: #193949; */
+/* } */
+
+/* #light { */
+    /*========== Colors ==========*/
+    /* --title-color: #333333;
+    --title-color-dark: #000;
+    --text-color: #757575;
+    --body-color: #FAFAFA;
+    --container-color: #fff; */
+/* } */
+
 
 /*========== Responsive Typography ==========*/
 @media screen and (max-width: 992px) {
@@ -154,6 +172,10 @@ html  { scroll-behavior: smooth; }
   .button_icon {
     width: 22px;
     height: 22px;
+  }
+  header, main, footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
