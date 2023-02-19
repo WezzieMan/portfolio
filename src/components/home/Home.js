@@ -3,7 +3,7 @@ import "./home.css"
 import ScrollDown from "./ScrollDown";
 import Socials from "./Socials";
 
-const Home = () => {
+const Home = ({toggleTheme, theme}) => {
   return (  
     <section className="home section" id="home">
       <div className="home_container container grid">

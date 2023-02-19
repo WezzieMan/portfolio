@@ -6,13 +6,6 @@
 :root {
   --header-height: 3rem;
 
-    /*========== Colors ==========*/
-    --title-color: #A2D9FF; 
-    --title-color-dark: #61C9A8; 
-    --text-color: #F5B700; 
-    --body-color: #193549; 
-    --container-color: #193949;
-
   /*========== Font and Typography ==========*/
   --body-font: 'Poppins', sans-serif;
 
@@ -48,23 +41,23 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
-/* #dark { */
+#dark { 
     /*========== Colors ==========*/
-    /* --title-color: #A2D9FF; 
+    --title-color: #A2D9FF; 
     --title-color-dark: #61C9A8; 
     --text-color: #F5B700; 
     --body-color: #193549; 
-    --container-color: #193949; */
-/* } */
+    --container-color: #193949;
+}
 
-/* #light { */
+#light {
     /*========== Colors ==========*/
-    /* --title-color: #333333;
+    --title-color: #333333;
     --title-color-dark: #000;
     --text-color: #757575;
     --body-color: #FAFAFA;
-    --container-color: #fff; */
-/* } */
+    --container-color: #fff;
+}
 
 
 /*========== Responsive Typography ==========*/
@@ -113,6 +106,18 @@ a     { text-decoration: none; }
 ul    { list-style: none; }
 html  { scroll-behavior: smooth; }
 
+.switch_container {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  flex-direction: column;
+}
+.switch {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section_title {

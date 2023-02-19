@@ -33,6 +33,9 @@
 
 .nav_close, .nav_toggle, .nav_icon { display: none; }
 
+.switch_label {
+  color: var(--title-color);
+}
 
 /* Active link */
 .active-link, .nav_link:hover { color: var(--title-color-dark); }
@@ -64,6 +67,16 @@
 
   /* Show Menu */
   .show-menu { bottom: 0; }
+  .switch_label {
+    display: none;
+  }
+  .switch_container {
+    flex-direction: row !important;
+    align-items: center !important;
+    height: 0 !important;
+    justify-content: flex-start !important;
+    gap: .5rem;
+  }
 
   .nav_list {
     display: grid !important;

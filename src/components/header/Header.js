@@ -1,4 +1,5 @@
 import { useState, useSyncExternalStore } from "react";
+import DarkMode from "../darkMode/DarkMode";
 import "./header.css";
 
 const Header = () => {
@@ -16,7 +17,16 @@ const Header = () => {
   return ( 
     <header className="header">
       <nav className="nav container">
+       <div className="switch_container">
         <a href="index.html" className="nav_logo">Daniel</a>
+
+        <div className="switch">
+          <span className="switch_label">Change theme: </span>
+          <DarkMode />
+        </div>
+
+       </div>
+
 
         <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
           <ul className="grid nav_list">

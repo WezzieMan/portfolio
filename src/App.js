@@ -8,18 +8,16 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/Scrollup";
 import Portfolio from "./components/portfolio/Portfolio";
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 
-// export const ThemeContext = createContext(null)
 
 function App() {
-  // const [theme, setTheme] = useState("dark");
 
-  // const toggleTheme = () => {
-  //   setTheme((cur) => (cur === "light" ? "dark" : "light"));
-  // }
+
+  useEffect(() => {
+    document.body.id = "light";
+  }, []);
   return (
-    // <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div >
         <Header />
 
@@ -35,7 +33,6 @@ function App() {
         <Footer />
         <Scrollup />
       </div>
-    // </ThemeContext.Provider>
   );
 }
 
