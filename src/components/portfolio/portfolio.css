@@ -86,7 +86,9 @@
 }
 
 @media screen and (max-width: 576px) {
-
+  .portfolio_list {
+    column-gap: .5rem;
+  }
 }
 
 /* For small devices */
@@ -110,5 +112,7 @@
   }
   .portfolio_list {
     font-size: var(--smaller-font-size);
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
   }
 } 
